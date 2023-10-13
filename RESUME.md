@@ -39,7 +39,7 @@ In my role at Ambit, I was a subject-matter expert for product and rate services
 ---
 
 ### Property & Casualty Management Systems
-**Senior Software Developer - June 2013 - August 2014**
+**Senior Software Developer - June 2013 - August 2014**  
 I was tasked with modernizing PCMS's Atlas claims management platform from a monolithic VB/ASP.NET web forms architecture to a C#/ASP.NET core with a single-page application front-end. We aimed for a responsive and accessible design to ensure a smooth user experience on both web and mobile platforms. The effort involved breaking down code into shared libraries to create a modular architecture and transitioning existing features to RESTful web services. The tech stack for this project included C#, ASP.NET, JavaScript/CoffeeScript, AngularJS, and MSSQL Server.
 
 ---
