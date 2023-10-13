@@ -46,7 +46,7 @@ I was tasked with modernizing PCMS's Atlas claims management platform from a mon
 
 ### HKS Architects
 **Software Developer - April 2007 - June 2013**  
-I embraced on a multifaceted role, developing both internal and external websites and applications. I automated several labor-intensive manual processes, such as launching a promotion candidate tracking and balloting system. I also designed an application that bridged the gap between the accounting and project management systems, enabling project managers to make more accurate quarterly forecasts. In addition, I implemented an electronic pay stub feature into the payroll system, eliminating the need for printed, couriered pay stubs across all 28 regional offices, resulting in substantial time and cost savings.
+I embraced a multifaceted role, developing both internal and external websites and applications. I automated several labor-intensive manual processes, such as launching a promotion candidate tracking and balloting system. I also designed an application that bridged the gap between the accounting and project management systems, enabling project managers to make more accurate quarterly forecasts. In addition, I implemented an electronic pay stub feature into the payroll system, eliminating the need for printed, couriered pay stubs across all 28 regional offices, resulting in substantial time and cost savings.
 
 ---
 
