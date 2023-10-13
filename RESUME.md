@@ -40,13 +40,13 @@ I was responsible for modernizing PCMS's Atlas claims management platform, origi
 
 ### HKS Architects  
 **Software Developer - April 2007 - June 2013**  
-As a member of the small IT department within a large architecture firm, I was entrusted with various responsibilities, including the development of both internal and external websites and applications. I successfully automated many time consuming manual processes, including creating a promotion candidate tracking and balloting system. I designed and built an application that integrated data between HKS’s accounting and project management systems, to allow project managers to forecast quarterly costs and needs. I also wrote and integrated an electronic pay stub process into HKS’s payroll system which contributed to significant time and cost savings, replacing the need for printed pay stubs that were previously couriered and hand-delivered to all 28 HKS regional offices.
+I took on a multifaceted role, developing both internal and external websites and applications. I automated several labor-intensive manual processes, such as launching a promotion candidate tracking and balloting system. I also designed an application that bridged the gap between the accounting and project management systems, enabling project managers to make more accurate quarterly forecasts. In addition, I implemented an electronic pay stub feature into the payroll system, eliminating the need for printed, couriered pay stubs across all 28 regional offices, leading to substantial time and cost savings.
 
 ---
 
 ### UCF Department of Information Systems Technology  
 **Software Developer - April 2005 - April 2007**  
-I was responsible for developing and maintaining various modules and features for the company’s flagship application, ARGIS (Coldfusion/JavaScript/MSSQL), a research grant and project tracking system. My role also encompassed implementing and coding user interface designs provided by the graphics department. I played a pivotal role in spearheading the adoption of semantic design and CSS-based web layouts, replacing the outdated table-based layouts, which led to a significant enhancement in design practices and overall user experience.
+In my role on the ARGIS team, I was an active contributor to our research grant and project tracking system which was using ColdFusion, JavaScript, and MSSQL. I brought Photoshop designs from our graphic design to life using into HTML and CSS, while ensuring cross-browser compatibility. Additionally, I was proactive in transitioning the project from outdated table-based designs to more forward-thinking semantic and CSS-based layouts.
 
 ---
 
