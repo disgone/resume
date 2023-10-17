@@ -1,0 +1,15 @@
+@media print {
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.4rem;
+  }
+  
+  p,
+  .no-break
+  {
+    break-inside: avoid;
+  }
+}
