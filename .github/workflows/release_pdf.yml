@@ -34,6 +34,14 @@ jobs:
           echo "PDF_NAME=${PDF_NAME}" >> $GITHUB_ENV
           cp out/RESUME.pdf ./${PDF_NAME}
 
+      - name: Determine Release Type
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "DRAFT=false" >> $GITHUB_ENV
+          else
+            echo "DRAFT=true" >> $GITHUB_ENV
+          fi
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -42,7 +50,7 @@ jobs:
         with:
           tag_name: rel-${{ github.sha }}
           release_name: Release v${{ github.run_number }}
-          draft: false
+          draft: ${{ env.DRAFT }}
           prerelease: false
           
       - name: Upload Release Asset
