@@ -25,6 +25,8 @@ jobs:
           input_path: RESUME.md
           build_html: false
           output_dir: out
+          theme: style.css
+          extend_default_theme: true
 
       - name: Rename PDF
         run: |
