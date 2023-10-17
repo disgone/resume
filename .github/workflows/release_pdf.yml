@@ -26,7 +26,7 @@ jobs:
       - name: Rename PDF
         run: |
           PDF_NAME=shaun_smith_resume.pdf
-          ECHO "PDF_NAME=${PDF_NAME}" >> $GITHUB_ENV
+          echo "PDF_NAME=${PDF_NAME}" >> $GITHUB_ENV
           cp out/RESUME.pdf ./${PDF_NAME}
 
       - name: Create Release
