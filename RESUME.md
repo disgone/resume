@@ -1,12 +1,8 @@
 # Shaun P. Smith
 
-As a seasoned software engineer with nearly 18 years of professional experience, I have honed my skills in developing clean and performant web systems. My passion for software development and dedication to staying up-to-date with the latest concepts, methodologies, best practices, and technologies drives me to continuously learn and improve. With a highly self-motivated attitude, I am always striving to deliver high-quality results for every project.
+##### shaunsmith@disgone.com | Dallas, Texas
 
----
-
-## Objective
-
-I'm targeting a full-stack role to tackle both back-end and front-end challenges. I aim to contribute to a team that values code quality and continuous improvement. Writing code is where I excel, and I'm focused on a career that keeps me hands-on in the tech stack. While my preference leans towards remote roles, I'm open to in-office or hybrid setups if the role and location are a good fit.
+With 18 years in full-stack software engineering, my passion is crafting top-notch digital solutions. Experienced with a wide range of technologies, I'm a relentless learner who stays abreast of the latest trends and is deeply knowledgeable about best practices. I thrive in roles where I can be hands-on across the entire tech stack. While remote opportunities are my preference, I'm flexible for the right role and location.
 
 ---
 
