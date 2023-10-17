@@ -1,0 +1,52 @@
+name: ReleasePdf
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'RESUME.md'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+  topdf:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Convert Markdown to PDF
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+        with:
+          input_path: RESUME.md
+          build_html: false
+          output_dir: out
+
+      - name: Rename PDF
+        run: |
+          PDF_NAME=shaun_smith_resume.pdf
+          ECHO "PDF_NAME=${PDF_NAME}" >> $GITHUB_ENV
+          cp out/RESUME.pdf ./${PDF_NAME}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./${{ env.PDF_NAME }}
+          asset_name: ${{ env.PDF_NAME }}
+          asset_content_type: application/pdf
