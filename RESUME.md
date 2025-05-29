@@ -11,7 +11,7 @@ With 18 years in full-stack software engineering, my passion is crafting top-not
 <section class='no-break'>
   
 ### Semperis
-**Senior Software Engineer - December 2024**  
+**Senior Software Engineer - December 2024 - Present**  
 At Semperis, I’m part of the Ready1 team, building a cloud-native incident management platform that enables organizations to detect, respond to, and recover from cyberattacks, and to streamline cyber insurance claims and recovery processes.
 
 I design and develop distributed backend services in .NET, leveraging event-driven workflows and NoSQL data stores to support scalability, resilience, and secure handling of sensitive incident data. The platform is designed for high availability, ensuring customers maintain access to critical data even when their own infrastructure may be compromised or inaccessible.
