@@ -10,8 +10,22 @@ With 18 years in full-stack software engineering, my passion is crafting top-not
 
 <section class='no-break'>
   
+### Semperis
+**Senior Software Engineer - December 2024 - Present**  
+At Semperis, I’m part of the Ready1 team, building a cloud-native incident management platform that enables organizations to detect, respond to, and recover from cyberattacks, and to streamline cyber insurance claims and recovery processes.
+
+I design and develop distributed backend services in .NET, leveraging event-driven workflows and NoSQL data stores to support scalability, resilience, and secure handling of sensitive incident data. The platform is designed for high availability, ensuring customers maintain access to critical data even when their own infrastructure may be compromised or inaccessible.
+
+I contribute to system design and define observability patterns—including logging, tracing, and metrics—to ensure the platform itself is reliable, performant, and easy to operate. We leverage native Azure services for messaging, storage, and monitoring, and deploy via Azure Kubernetes Service (AKS), using Bicep-managed infrastructure and automated CI/CD pipelines in Azure DevOps for secure, reliable delivery.
+
+</section>
+
+---
+
+<section class='no-break'>
+  
 ### U.S. Bank  
-**Lead Software Developer - May 2023**  
+**Lead Software Developer - May 2023 - December 2024**  
 I lead a distributed team tasked with the phased modernization of a critical legacy web forms application to a more flexible cloud-first, modular architecture, enabling us to gradually shift away from the legacy application while minimizing operational disruption. It was my responsibility to offer architectural guidance and specify implementation approaches, while also both coding for business deliverables and crafting proof-of-concept solutions as blueprints for the team. Additionally, I participate in code reviews and planning sessions, fostering an environment of continuous learning and quality assurance through collaboration with an offshore development team.
 
 The redesigned system adopts a microservices architecture, utilizing .NET 7/C#/MSSQL for the back end and a micro-frontend pattern with React for the front end. All components are deployed and run in a Kubernetes environment.
