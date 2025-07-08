@@ -34,10 +34,10 @@ The redesigned system adopts a microservices architecture, utilizing .NET 7/C#/M
 
 ---
 
-### GM Financial  
-
 <section class='no-break'>
   
+### GM Financial  
+
 **Senior Software Developer III - July 2021 - May 2023**  
 On the Mode team, I worked as a full-stack developer to build a cloud-first, direct-to-lender lending application. I engaged in a range of responsibilities, from developing third-party integrations to crafting REST APIs in a microservices architecture. Our services were event driven, using a combination of CRQS and RabbitMQ/IBM Websphere as our event brokers. I also contributed code to the front end, which followed a micro-frontend pattern using Angular 13. Additionally, help orchestrate setting up and maintaining our CI/CD pipelines via Azure DevOps, as well as implementing infrastructure-as-code with Terraform. The application is hosted on Azure, leveraging Azure Kubernetes Service for deployment and management.
 
